@@ -1,7 +1,7 @@
 [project]
-name = "app-generator"
+name = "ai-powered-app-generator"
 version = "0.1.0"
-description = "Add your description here"
+description = "AUm agente de IA capaz de criar aplicativos Streamlit a partir de um único prompt."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -9,6 +9,7 @@ dependencies = [
     "matplotlib>=3.10.5",
     "plotly>=6.3.0",
     "python-dotenv>=1.1.1",
+    "seaborn>=0.13.2",
     "streamlit>=1.48.1",
     "streamlit-ace>=0.1.1",
     "streamlit-antd-components>=0.3.2",
